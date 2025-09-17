@@ -1,0 +1,27 @@
+/* main.scss para Angular */
+
+/* Importar los estilos principales de la plantilla */
+@import '../../../assets/css/main.css';
+@import '../../../assets/css/noscript.css';
+
+/* Font Awesome */
+@import '../../../assets/css/fontawesome-all.min.css';
+
+/* Si tu plantilla tuviera otros archivos CSS, los puedes importar aquí */
+/* @import '../../../assets/css/otro-archivo.css'; */
+
+/* Estilos personalizados adicionales para Angular (opcional) */
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
